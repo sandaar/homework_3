@@ -1,0 +1,10 @@
+hw_3
+config.py
+*.json
+*.html
+*.txt*
+*.csv
+*.pyc
+
+!*requirements.txt
+!*put.json

@@ -1,0 +1,53 @@
+{
+  "test_Crawler": {
+    "test_get_links_positive": {
+      "root": "http://python.aori.ru/",
+      "size": 10
+    },
+    "test_get_links_negative": {
+      "root": "http://wrong_url",
+      "size": 10
+    },
+    "test_add_data_len_exceeds": {
+      "root": "http://python.aori.ru/",
+      "size": 0
+    },
+    "test_add_data_link_not_present": {
+      "root": "http://python.aori.ru/",
+      "size": 3,
+      "url": "http://jsonviewer.stack.hu/"
+    },
+    "test_add_data_link_present": {
+      "root": "http://python.aori.ru/",
+      "size": 3,
+      "url": "http://jsonviewer.stack.hu/"
+    },
+    "test_crawler": {
+      "root": "http://python.aori.ru/",
+      "size": 5
+    }
+  },
+  "test_VkApp": {
+    "test_get_user_id_from_nickname": {
+        "user_nickname": "accdev"
+    },
+    "test_get_user_id_from_id": {
+        "user_id": "328399272"
+    },
+    "test_get_audios": {
+        "user_id": "328399272"
+    },
+    "test_get_audios_list": {
+        "user_id": "328399272"
+    },
+    "test_get_audios_count": {
+        "user_id": "328399272"
+    },
+    "test_get_friends": {
+        "user_id": "328399272"        
+    },
+    "test_get_users": {
+        "user_id": "328399272"         
+    }
+    }
+}

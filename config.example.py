@@ -1,0 +1,6 @@
+ACCESS_TOKEN = ""
+EMAIL = ""
+PASSWORD = ""
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+SCOPE = ""
